@@ -1,0 +1,38 @@
+name: Update Recruitment Data
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "20 1,7,13 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run crawler
+        env:
+          MAX_COMPANIES: "550"
+        run: python crawler/crawler.py
+
+      - name: Commit updated data
+        run: |
+          git config user.name "offer-radar-bot"
+          git config user.email "offer-radar-bot@users.noreply.github.com"
+          git add data/jobs.json data/history.json
+          git commit -m "Update recruitment data" || echo "No changes to commit"
+          git push
