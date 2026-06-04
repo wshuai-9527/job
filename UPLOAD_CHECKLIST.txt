@@ -1,0 +1,41 @@
+你要上传的是这个文件夹【里面的所有内容】，不是外层文件夹本身。
+
+正确结构必须是：
+
+.github/
+  workflows/
+    update-jobs.yml
+
+crawler/
+  crawler.py
+  parsers.py
+  utils.py
+  config.py
+
+data/
+  companies.json
+  jobs.json
+  history.json
+
+index.html
+style.css
+app.js
+requirements.txt
+README.md
+LOCAL_PREVIEW.md
+
+上传 GitHub 后，仓库首页应该看到：
+.github
+crawler
+data
+app.js
+index.html
+style.css
+requirements.txt
+README.md
+
+不要把 companies.json、jobs.json、history.json 单独放在根目录；
+它们必须在 data 文件夹里。
+
+不要把 crawler.py、parsers.py、utils.py、config.py 单独放在根目录；
+它们必须在 crawler 文件夹里。
