@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-12T09:17:29",
+  "generated_at": "2026-07-12T14:37:56",
   "mode": "public_page_keyword_monitor",
   "company_count": 550,
   "crawled_count": 550,
-  "record_count": 1312,
-  "failures": 178,
+  "record_count": 1309,
+  "failures": 181,
   "jobs": [
     {
       "id": "fdd0654c471d996a",
@@ -374,11 +374,11 @@
       "note": "从官网公开页面链接中匹配到校招/实习相关关键词。"
     },
     {
-      "id": "a2b9abbb0d289687",
+      "id": "1128a12741fff7fa",
       "company_id": "tech-mi-com",
       "company": "小米",
       "category": "科技企业",
-      "title": "小米招聘",
+      "title": "官网入口暂时无法自动抓取",
       "recruit_type": "2027届校招/实习监控",
       "city": [
         "杭州",
@@ -390,16 +390,16 @@
         "算法工程师",
         "后端开发"
       ],
-      "status": "待官网确认",
+      "status": "抓取失败",
       "deadline": "",
       "url": "https://hr.xiaomi.com/campus",
       "source_type": "official",
       "matched_keywords": [],
       "match_score": 94,
-      "first_seen": "2026-07-07",
+      "first_seen": "2026-07-12",
       "last_seen": "2026-07-12",
       "is_demo": false,
-      "note": "未在公开页面正文中匹配到明显27届/校招关键词；保留官方入口供人工核对。"
+      "note": "自动抓取失败：HTTPSConnectionPool(host='hr.xiaomi.com', port=443): Read timed out. (read timeout=12)。可能是JS动态加载、证书、访问限制或临时网络问题，请人工打开官网确认。"
     },
     {
       "id": "b36de4ca1490b241",
@@ -1473,11 +1473,11 @@
       "note": "未在公开页面正文中匹配到明显27届/校招关键词；保留官方入口供人工核对。"
     },
     {
-      "id": "8ee36bf01675a81e",
+      "id": "84b568ab2c0140e0",
       "company_id": "tech-zte-com-cn",
       "company": "中兴通讯",
       "category": "科技企业",
-      "title": "校园招聘",
+      "title": "官网入口暂时无法自动抓取",
       "recruit_type": "2027届校招/实习监控",
       "city": [
         "广州",
@@ -1489,146 +1489,16 @@
         "机器学习工程师",
         "产品经理"
       ],
-      "status": "27届秋招预热",
+      "status": "抓取失败",
       "deadline": "",
-      "url": "https://job.zte.com.cn/content/zte-job/cn/campus-recruitment/Recruitment_positions/freshstudent.html",
+      "url": "https://job.zte.com.cn/",
       "source_type": "official",
-      "matched_keywords": [
-        "campus",
-        "校园招聘"
-      ],
-      "match_score": 99,
-      "first_seen": "2026-07-09",
+      "matched_keywords": [],
+      "match_score": 97,
+      "first_seen": "2026-07-12",
       "last_seen": "2026-07-12",
       "is_demo": false,
-      "note": "从官网公开页面链接中匹配到校招/实习相关关键词。"
-    },
-    {
-      "id": "69d66ed1ae8b0f49",
-      "company_id": "tech-zte-com-cn",
-      "company": "中兴通讯",
-      "category": "科技企业",
-      "title": "AI算法工程师（未来领军）",
-      "recruit_type": "2027届校招/实习监控",
-      "city": [
-        "广州",
-        "成都",
-        "杭州"
-      ],
-      "roles": [
-        "数据开发",
-        "机器学习工程师",
-        "产品经理"
-      ],
-      "status": "27届校招开放中",
-      "deadline": "",
-      "url": "https://app.mokahr.com/su/101UHY",
-      "source_type": "official",
-      "matched_keywords": [
-        "AI",
-        "算法"
-      ],
-      "match_score": 99,
-      "first_seen": "2026-07-09",
-      "last_seen": "2026-07-12",
-      "is_demo": false,
-      "note": "从官网公开页面链接中匹配到校招/实习相关关键词。"
-    },
-    {
-      "id": "25585be40d4c1a4f",
-      "company_id": "tech-zte-com-cn",
-      "company": "中兴通讯",
-      "category": "科技企业",
-      "title": "软件开发工程师",
-      "recruit_type": "2027届校招/实习监控",
-      "city": [
-        "广州",
-        "成都",
-        "杭州"
-      ],
-      "roles": [
-        "数据开发",
-        "机器学习工程师",
-        "产品经理"
-      ],
-      "status": "27届校招开放中",
-      "deadline": "",
-      "url": "https://app.mokahr.com/social-recruitment/zte/47588#/jobs?zhineng%5B0%5D=72363&page=1&anchorName=jobsList",
-      "source_type": "official",
-      "matched_keywords": [
-        "开发",
-        "软件"
-      ],
-      "match_score": 99,
-      "first_seen": "2026-07-09",
-      "last_seen": "2026-07-12",
-      "is_demo": false,
-      "note": "从官网公开页面链接中匹配到校招/实习相关关键词。"
-    },
-    {
-      "id": "a4c348236a2a4363",
-      "company_id": "tech-zte-com-cn",
-      "company": "中兴通讯",
-      "category": "科技企业",
-      "title": "中兴通讯2027届未来领军人才招聘正式启动 2026-06-29",
-      "recruit_type": "2027届校招/实习监控",
-      "city": [
-        "广州",
-        "成都",
-        "杭州"
-      ],
-      "roles": [
-        "数据开发",
-        "机器学习工程师",
-        "产品经理"
-      ],
-      "status": "27届校招开放中",
-      "deadline": "",
-      "url": "https://job.zte.com.cn/content/zte-job/cn/campus-recruitment/School_Recruitment_Announcement/news/202406061.html",
-      "source_type": "official",
-      "matched_keywords": [
-        "2027",
-        "2027届",
-        "27届",
-        "campus"
-      ],
-      "match_score": 99,
-      "first_seen": "2026-07-09",
-      "last_seen": "2026-07-12",
-      "is_demo": false,
-      "note": "从官网公开页面链接中匹配到校招/实习相关关键词。"
-    },
-    {
-      "id": "0d6afbfa4488af0e",
-      "company_id": "tech-zte-com-cn",
-      "company": "中兴通讯",
-      "category": "科技企业",
-      "title": "中兴通讯实习生招聘正式启动 2026-03-12",
-      "recruit_type": "2027届校招/实习监控",
-      "city": [
-        "广州",
-        "成都",
-        "杭州"
-      ],
-      "roles": [
-        "数据开发",
-        "机器学习工程师",
-        "产品经理"
-      ],
-      "status": "27届实习转正",
-      "deadline": "",
-      "url": "https://job.zte.com.cn/content/zte-job/cn/campus-recruitment/School_Recruitment_Announcement/news/10011.html",
-      "source_type": "official",
-      "matched_keywords": [
-        "campus",
-        "实习",
-        "实习生"
-      ],
-      "match_score": 99,
-      "first_seen": "2026-07-09",
-      "last_seen": "2026-07-12",
-      "is_demo": false,
-      "note": "从官网公开页面链接中匹配到校招/实习相关关键词。"
+      "note": "自动抓取失败：HTTPSConnectionPool(host='job.zte.com.cn', port=443): Read timed out. (read timeout=12)。可能是JS动态加载、证书、访问限制或临时网络问题，请人工打开官网确认。"
     },
     {
       "id": "2edc83ce913d3c12",
@@ -2427,7 +2297,7 @@
       "note": "自动抓取失败：403 Client Error: Forbidden for url: https://www.apple.com/careers/cn/。可能是JS动态加载、证书、访问限制或临时网络问题，请人工打开官网确认。"
     },
     {
-      "id": "b00ff0f9e4c1927a",
+      "id": "6afcf0cccdc8a5bb",
       "company_id": "tech-amazon-com-amazon",
       "company": "Amazon",
       "category": "科技企业",
@@ -2444,7 +2314,7 @@
       ],
       "status": "待官网确认",
       "deadline": "",
-      "url": "https://www.amazon.jobs/en/#main-1783847953",
+      "url": "https://www.amazon.jobs/en/#main-1783867223",
       "source_type": "official",
       "matched_keywords": [
         "AI"
@@ -9154,11 +9024,11 @@
       "note": "官网公开页面正文匹配到校招/实习相关关键词。"
     },
     {
-      "id": "004e99b0c1428a22",
+      "id": "d2a69cd859608706",
       "company_id": "soe-sinograin-com-cn",
       "company": "中国储备粮管理集团",
       "category": "央国企",
-      "title": "首页-中储粮",
+      "title": "官网入口暂时无法自动抓取",
       "recruit_type": "2027届校招/实习监控",
       "city": [
         "北京",
@@ -9171,7 +9041,7 @@
         "信息技术岗",
         "管培生"
       ],
-      "status": "待官网确认",
+      "status": "抓取失败",
       "deadline": "",
       "url": "https://www.sinograin.com.cn/",
       "source_type": "official",
@@ -9180,7 +9050,7 @@
       "first_seen": "2026-07-12",
       "last_seen": "2026-07-12",
       "is_demo": false,
-      "note": "未在公开页面正文中匹配到明显27届/校招关键词；保留官方入口供人工核对。"
+      "note": "自动抓取失败：502 Server Error: Bad Gateway for url: https://www.sinograin.com.cn/。可能是JS动态加载、证书、访问限制或临时网络问题，请人工打开官网确认。"
     },
     {
       "id": "aa893d5e532a4cac",
@@ -12600,7 +12470,7 @@
       "first_seen": "2026-06-04",
       "last_seen": "2026-07-12",
       "is_demo": false,
-      "note": "自动抓取失败：412 Client Error: Precondition Failed for url: https://www.china-an.cn/。可能是JS动态加载、证书、访问限制或临时网络问题，请人工打开官网确认。"
+      "note": "自动抓取失败：HTTPSConnectionPool(host='www.china-an.cn', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"H。可能是JS动态加载、证书、访问限制或临时网络问题，请人工打开官网确认。"
     },
     {
       "id": "60c994bd2b8f8576",
@@ -13745,11 +13615,11 @@
       "note": "从官网公开页面链接中匹配到校招/实习相关关键词。"
     },
     {
-      "id": "8ed242a93efe7fba",
+      "id": "f416d78a1cd6a612",
       "company_id": "fmcg-unilever-com",
       "company": "联合利华",
       "category": "快消企业",
-      "title": "Territory Sales Officer Chennai, India",
+      "title": "Finance Executive Navi Mumbai, India",
       "recruit_type": "2027届校招/实习监控",
       "city": [
         "北京",
@@ -13762,13 +13632,13 @@
       ],
       "status": "27届实习转正",
       "deadline": "",
-      "url": "https://careers.unilever.com/en/job/chennai/territory-sales-officer/34155/97646738112",
+      "url": "https://careers.unilever.com/en/job/navi-mumbai/finance-executive/34155/97002249536",
       "source_type": "official",
       "matched_keywords": [
         "AI"
       ],
       "match_score": 79,
-      "first_seen": "2026-07-11",
+      "first_seen": "2026-07-12",
       "last_seen": "2026-07-12",
       "is_demo": false,
       "note": "从官网公开页面链接中匹配到校招/实习相关关键词。"
@@ -14935,7 +14805,7 @@
       "note": "从官网公开页面链接中匹配到校招/实习相关关键词。"
     },
     {
-      "id": "d13ed29b72aac570",
+      "id": "14766f7901d86228",
       "company_id": "fmcg-kimberly-clark-com",
       "company": "金佰利",
       "category": "快消企业",
@@ -14952,7 +14822,7 @@
       ],
       "status": "27届实习转正",
       "deadline": "",
-      "url": "https://careers.kimberly-clark.com/cdn-cgi/l/email-protection#88cfe4e7eae9e4a6d8fae1fee9ebf1c8e3ebeba6ebe7e5",
+      "url": "https://careers.kimberly-clark.com/cdn-cgi/l/email-protection#52153e3d30333e7c02203b2433312b123931317c313d3f",
       "source_type": "official",
       "matched_keywords": [
         "AI"
@@ -16027,11 +15897,11 @@
       "note": "自动抓取失败：HTTPSConnectionPool(host='www.lgcare.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerifi。可能是JS动态加载、证书、访问限制或临时网络问题，请人工打开官网确认。"
     },
     {
-      "id": "fb33f71ec4e331ce",
+      "id": "ee46dffdbf3e52fe",
       "company_id": "fmcg-apgroup-com",
       "company": "爱茉莉太平洋",
       "category": "快消企业",
-      "title": "官网入口暂时无法自动抓取",
+      "title": "Skip to main content",
       "recruit_type": "2027届校招/实习监控",
       "city": [
         "成都",
@@ -16044,16 +15914,18 @@
         "供应链",
         "电商运营"
       ],
-      "status": "抓取失败",
+      "status": "待官网确认",
       "deadline": "",
-      "url": "https://www.apgroup.com/int/en/careers/careers.html",
+      "url": "https://www.apgroup.com/int/en/careers/careers.html#main",
       "source_type": "official",
-      "matched_keywords": [],
-      "match_score": 80,
+      "matched_keywords": [
+        "AI"
+      ],
+      "match_score": 84,
       "first_seen": "2026-07-12",
       "last_seen": "2026-07-12",
       "is_demo": false,
-      "note": "自动抓取失败：403 Client Error: Forbidden for url: https://www.apgroup.com/int/en/careers/careers.html。可能是JS动态加载、证书、访问限制或临时网络问题，请人工打开官网确认。"
+      "note": "从官网公开页面链接中匹配到校招/实习相关关键词。"
     },
     {
       "id": "d0eeb365b48408a9",
@@ -17229,11 +17101,11 @@
       "note": "自动抓取失败：HTTPSConnectionPool(host='www.qianhefood.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutErro。可能是JS动态加载、证书、访问限制或临时网络问题，请人工打开官网确认。"
     },
     {
-      "id": "6b622035dc3a53bd",
+      "id": "44be4a32293c804a",
       "company_id": "fmcg-flzc-com",
       "company": "涪陵榨菜",
       "category": "快消企业",
-      "title": "官网招聘相关入口",
+      "title": "官网入口暂时无法自动抓取",
       "recruit_type": "2027届校招/实习监控",
       "city": [
         "上海",
@@ -17246,56 +17118,23 @@
         "消费者洞察",
         "数据分析"
       ],
-      "status": "待官网确认",
+      "status": "抓取失败",
       "deadline": "",
-      "url": "https://shop.m.jd.com/shop/home?shopId=67694&utm_term=CopyURL_shareid200969fdf16e76625abf8a613e84b2090ffb535c17369094239763_shop_none&utm_source=iosapp&ad_od=share&utm_campaign=t_335139774&utm_medium=appshare&gx=RnAovz4FITXQwpsVqYR0ER8M6w&gxd=RnAowWdZYTLQncxDroIiWkJRsHrE-HPOYw5d0Nf5OI0iyI0P6-89hr9xIfbrUFQ&czLogin=1",
+      "url": "https://www.flzc.com/",
       "source_type": "official",
-      "matched_keywords": [
-        "AI"
-      ],
-      "match_score": 91,
-      "first_seen": "2026-07-11",
+      "matched_keywords": [],
+      "match_score": 87,
+      "first_seen": "2026-07-12",
       "last_seen": "2026-07-12",
       "is_demo": false,
-      "note": "从官网公开页面链接中匹配到校招/实习相关关键词。"
+      "note": "自动抓取失败：HTTPSConnectionPool(host='www.flzc.com', port=443): Read timed out. (read timeout=12)。可能是JS动态加载、证书、访问限制或临时网络问题，请人工打开官网确认。"
     },
     {
-      "id": "c03bf393a277540c",
-      "company_id": "fmcg-flzc-com",
-      "company": "涪陵榨菜",
-      "category": "快消企业",
-      "title": "官网招聘相关入口",
-      "recruit_type": "2027届校招/实习监控",
-      "city": [
-        "上海",
-        "北京",
-        "泉州",
-        "福州"
-      ],
-      "roles": [
-        "IT数字化",
-        "消费者洞察",
-        "数据分析"
-      ],
-      "status": "待官网确认",
-      "deadline": "",
-      "url": "https://wujiangsp.tmall.com/shop/view_shop.htm?ut_sk=1.XQ0TwuSjB4YDAJCh%2BdkcXlpA_21380790_1736909317219.Copy.shop&weexShopSubTab=shopindex&sourceType=shop&weexShopTab=shopindexbar&suid=E288ED47-1169-4600-8EF8-3BE5B5827DAC&shareUniqueId=30167161123&un=56d169e39473953c22a7d2c8bacf4d49&share_crt_v=1&un_site=0&spm=a2159r.13376460.0.0&sp_tk=cnFWdmUyQ0FoM3M%3D&bc_fl_src=share-1041106073620228-2-1&cpp=1&shareurl=true&short_name=h.T96i3uQdgaQXYz5&bxsign=scd-SjcXOMzpQAysa3xsmXI31XGJNAZ0_6E4euraZo20EaiW3ozlsS2mWeR_4lUL_LKr8LSjVwOmAJRjPdJ6UT0DN8fBLSPTEB5p_NIeGyVqmUJtFtHeR_sQVCbHPUyyu5Z&app=weixin",
-      "source_type": "official",
-      "matched_keywords": [
-        "AI"
-      ],
-      "match_score": 91,
-      "first_seen": "2026-07-11",
-      "last_seen": "2026-07-12",
-      "is_demo": false,
-      "note": "从官网公开页面链接中匹配到校招/实习相关关键词。"
-    },
-    {
-      "id": "5ed207b73222b24f",
+      "id": "ade20f99f37e3638",
       "company_id": "fmcg-brightdairy-com",
       "company": "光明乳业",
       "category": "快消企业",
-      "title": "官网入口暂时无法自动抓取",
+      "title": "官网招聘相关入口",
       "recruit_type": "2027届校招/实习监控",
       "city": [
         "福州",
@@ -17306,16 +17145,134 @@
         "品牌管理",
         "数据分析"
       ],
-      "status": "抓取失败",
+      "status": "待官网确认",
       "deadline": "",
-      "url": "https://www.brightdairy.com/",
+      "url": "https://www.brightdairy.com/index.html",
       "source_type": "official",
-      "matched_keywords": [],
-      "match_score": 85,
+      "matched_keywords": [
+        "AI"
+      ],
+      "match_score": 89,
       "first_seen": "2026-07-12",
       "last_seen": "2026-07-12",
       "is_demo": false,
-      "note": "自动抓取失败：HTTPSConnectionPool(host='www.brightdairy.com', port=443): Read timed out. (read timeout=12)。可能是JS动态加载、证书、访问限制或临时网络问题，请人工打开官网确认。"
+      "note": "从官网公开页面链接中匹配到校招/实习相关关键词。"
+    },
+    {
+      "id": "a7ff6bdb6b99441a",
+      "company_id": "fmcg-brightdairy-com",
+      "company": "光明乳业",
+      "category": "快消企业",
+      "title": "企业介绍",
+      "recruit_type": "2027届校招/实习监控",
+      "city": [
+        "福州",
+        "成都"
+      ],
+      "roles": [
+        "供应链",
+        "品牌管理",
+        "数据分析"
+      ],
+      "status": "待官网确认",
+      "deadline": "",
+      "url": "https://www.brightdairy.com/About/Introduce",
+      "source_type": "official",
+      "matched_keywords": [
+        "AI"
+      ],
+      "match_score": 89,
+      "first_seen": "2026-07-12",
+      "last_seen": "2026-07-12",
+      "is_demo": false,
+      "note": "从官网公开页面链接中匹配到校招/实习相关关键词。"
+    },
+    {
+      "id": "dd0fc139eeb244c7",
+      "company_id": "fmcg-brightdairy-com",
+      "company": "光明乳业",
+      "category": "快消企业",
+      "title": "光明全产业链",
+      "recruit_type": "2027届校招/实习监控",
+      "city": [
+        "福州",
+        "成都"
+      ],
+      "roles": [
+        "供应链",
+        "品牌管理",
+        "数据分析"
+      ],
+      "status": "待官网确认",
+      "deadline": "",
+      "url": "https://www.brightdairy.com/About/IndustryChain",
+      "source_type": "official",
+      "matched_keywords": [
+        "AI"
+      ],
+      "match_score": 89,
+      "first_seen": "2026-07-12",
+      "last_seen": "2026-07-12",
+      "is_demo": false,
+      "note": "从官网公开页面链接中匹配到校招/实习相关关键词。"
+    },
+    {
+      "id": "c9ca2636e73d5740",
+      "company_id": "fmcg-brightdairy-com",
+      "company": "光明乳业",
+      "category": "快消企业",
+      "title": "企业荣誉",
+      "recruit_type": "2027届校招/实习监控",
+      "city": [
+        "福州",
+        "成都"
+      ],
+      "roles": [
+        "供应链",
+        "品牌管理",
+        "数据分析"
+      ],
+      "status": "待官网确认",
+      "deadline": "",
+      "url": "https://www.brightdairy.com/About/Honors",
+      "source_type": "official",
+      "matched_keywords": [
+        "AI"
+      ],
+      "match_score": 89,
+      "first_seen": "2026-07-12",
+      "last_seen": "2026-07-12",
+      "is_demo": false,
+      "note": "从官网公开页面链接中匹配到校招/实习相关关键词。"
+    },
+    {
+      "id": "9f0fea73291403cd",
+      "company_id": "fmcg-brightdairy-com",
+      "company": "光明乳业",
+      "category": "快消企业",
+      "title": "社会责任",
+      "recruit_type": "2027届校招/实习监控",
+      "city": [
+        "福州",
+        "成都"
+      ],
+      "roles": [
+        "供应链",
+        "品牌管理",
+        "数据分析"
+      ],
+      "status": "待官网确认",
+      "deadline": "",
+      "url": "https://www.brightdairy.com/About/Social",
+      "source_type": "official",
+      "matched_keywords": [
+        "AI"
+      ],
+      "match_score": 89,
+      "first_seen": "2026-07-12",
+      "last_seen": "2026-07-12",
+      "is_demo": false,
+      "note": "从官网公开页面链接中匹配到校招/实习相关关键词。"
     },
     {
       "id": "8061c508cd6f1c80",
@@ -19122,7 +19079,7 @@
       "note": "从官网公开页面链接中匹配到校招/实习相关关键词。"
     },
     {
-      "id": "76e1546bc040a8aa",
+      "id": "ecbf27fac3eea4ea",
       "company_id": "fmcg-carlsbergchina-com-cn",
       "company": "嘉士伯中国",
       "category": "快消企业",
@@ -19140,7 +19097,7 @@
       ],
       "status": "待官网确认",
       "deadline": "",
-      "url": "https://www.carlsbergchina.com.cn/cdn-cgi/l/email-protection#fb9894958f9a988f8e88bb989394959c8a92959c9c89948e8bd59895",
+      "url": "https://www.carlsbergchina.com.cn/cdn-cgi/l/email-protection#e2818d8c968381969791a2818a8d8c85938b8c8585908d9792cc818c",
       "source_type": "official",
       "matched_keywords": [
         "AI"
@@ -20194,11 +20151,11 @@
       "note": "官网公开页面正文匹配到校招/实习相关关键词。"
     },
     {
-      "id": "0657406c71990091",
+      "id": "ab9d0985de6099be",
       "company_id": "fmcg-belleintl-com",
       "company": "百丽国际",
       "category": "快消企业",
-      "title": "百丽国际 - 百丽国际官网",
+      "title": "官网入口暂时无法自动抓取",
       "recruit_type": "2027届校招/实习监控",
       "city": [
         "福州",
@@ -20211,16 +20168,16 @@
         "品牌管理",
         "消费者洞察"
       ],
-      "status": "待官网确认",
+      "status": "抓取失败",
       "deadline": "",
       "url": "https://www.belleintl.com/",
       "source_type": "official",
       "matched_keywords": [],
       "match_score": 80,
-      "first_seen": "2026-07-11",
+      "first_seen": "2026-07-12",
       "last_seen": "2026-07-12",
       "is_demo": false,
-      "note": "未在公开页面正文中匹配到明显27届/校招关键词；保留官方入口供人工核对。"
+      "note": "自动抓取失败：HTTPSConnectionPool(host='www.belleintl.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError。可能是JS动态加载、证书、访问限制或临时网络问题，请人工打开官网确认。"
     },
     {
       "id": "e80093d91cbb1c9e",
@@ -26351,11 +26308,11 @@
       "note": "从官网公开页面链接中匹配到校招/实习相关关键词。"
     },
     {
-      "id": "90c347437de6359a",
+      "id": "d6ad668f57cf33bd",
       "company_id": "foreign-ford-com",
       "company": "福特",
       "category": "外企",
-      "title": "Electrical Maintenance Team Technician, 2nd Shift, BlueOval Battery Park Michiga",
+      "title": "Mechanical Maintenance Team Technician, 2nd Shift, BlueOval Battery Park Michiga",
       "recruit_type": "2027届校招/实习监控",
       "city": [
         "海外",
@@ -26369,37 +26326,7 @@
       ],
       "status": "27届秋招预热",
       "deadline": "",
-      "url": "https://www.careers.ford.com/job/marshall/electrical-maintenance-team-technician-2nd-shift-blueoval-battery-park-michigan/48560/90003243856",
-      "source_type": "official",
-      "matched_keywords": [
-        "AI"
-      ],
-      "match_score": 94,
-      "first_seen": "2026-07-12",
-      "last_seen": "2026-07-12",
-      "is_demo": false,
-      "note": "从官网公开页面链接中匹配到校招/实习相关关键词。"
-    },
-    {
-      "id": "3a58817ea1bc0053",
-      "company_id": "foreign-ford-com",
-      "company": "福特",
-      "category": "外企",
-      "title": "Mechanical Maintenance Team Technician, 1st Shift, BlueOval Battery Park Michiga",
-      "recruit_type": "2027届校招/实习监控",
-      "city": [
-        "海外",
-        "上海",
-        "杭州"
-      ],
-      "roles": [
-        "IT Analyst",
-        "Data Analyst",
-        "Graduate Program"
-      ],
-      "status": "27届秋招预热",
-      "deadline": "",
-      "url": "https://www.careers.ford.com/job/marshall/mechanical-maintenance-team-technician-1st-shift-blueoval-battery-park-michigan/48560/90003243824",
+      "url": "https://www.careers.ford.com/job/marshall/mechanical-maintenance-team-technician-2nd-shift-blueoval-battery-park-michigan/48560/90003243840",
       "source_type": "official",
       "matched_keywords": [
         "AI"
@@ -29389,11 +29316,11 @@
       "note": "从官网公开页面链接中匹配到校招/实习相关关键词。"
     },
     {
-      "id": "805b707eb0d4f091",
+      "id": "5a8ce362a0e60f5b",
       "company_id": "foreign-hilton-com",
       "company": "希尔顿",
       "category": "外企",
-      "title": "校招职位",
+      "title": "Thai",
       "recruit_type": "2027届校招/实习监控",
       "city": [
         "苏州",
@@ -29406,25 +29333,25 @@
         "IT Analyst",
         "Business Analyst"
       ],
-      "status": "27届秋招预热",
+      "status": "待官网确认",
       "deadline": "",
-      "url": "https://jobs.hilton.com/zh-hant/%e6%a0%a1%e6%8b%9b%e8%81%8c%e4%bd%8d",
+      "url": "https://jobs.hilton.com/th/",
       "source_type": "official",
       "matched_keywords": [
-        "校招"
+        "AI"
       ],
       "match_score": 84,
-      "first_seen": "2026-07-11",
+      "first_seen": "2026-07-12",
       "last_seen": "2026-07-12",
       "is_demo": false,
       "note": "从官网公开页面链接中匹配到校招/实习相关关键词。"
     },
     {
-      "id": "73603426101199ca",
+      "id": "69fa50e7d83aacf7",
       "company_id": "foreign-hilton-com",
       "company": "希尔顿",
       "category": "外企",
-      "title": "探索校招職位發展路徑",
+      "title": "Employment Disclaimer",
       "recruit_type": "2027届校招/实习监控",
       "city": [
         "苏州",
@@ -29437,15 +29364,15 @@
         "IT Analyst",
         "Business Analyst"
       ],
-      "status": "27届秋招预热",
+      "status": "待官网确认",
       "deadline": "",
-      "url": "https://jobs.hilton.com/zh-hant/%e6%a0%a1%e6%8b%9b%e8%81%8c%e4%bd%8d/",
+      "url": "https://jobs.hilton.com/employment-disclaimer",
       "source_type": "official",
       "matched_keywords": [
-        "校招"
+        "AI"
       ],
       "match_score": 84,
-      "first_seen": "2026-07-11",
+      "first_seen": "2026-07-12",
       "last_seen": "2026-07-12",
       "is_demo": false,
       "note": "从官网公开页面链接中匹配到校招/实习相关关键词。"
@@ -30532,7 +30459,7 @@
       "first_seen": "2026-06-04",
       "last_seen": "2026-07-12",
       "is_demo": false,
-      "note": "自动抓取失败：HTTPSConnectionPool(host='www.bocd.com.cn', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, 。可能是JS动态加载、证书、访问限制或临时网络问题，请人工打开官网确认。"
+      "note": "自动抓取失败：HTTPSConnectionPool(host='www.bocd.com.cn', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"。可能是JS动态加载、证书、访问限制或临时网络问题，请人工打开官网确认。"
     },
     {
       "id": "e5f1b83a768a02b5",
@@ -32195,11 +32122,11 @@
       "note": "从官网公开页面链接中匹配到校招/实习相关关键词。"
     },
     {
-      "id": "9f14e8f008a7dd99",
+      "id": "e73712ceff6abc84",
       "company_id": "finance-harvestfund-com",
       "company": "嘉实基金",
       "category": "金融机构",
-      "title": "官网入口暂时无法自动抓取",
+      "title": "Harvestfund.com for sale | Spaceship.com",
       "recruit_type": "2027届校招/实习监控",
       "city": [
         "南京",
@@ -32211,16 +32138,18 @@
         "软件开发岗",
         "风险管理"
       ],
-      "status": "抓取失败",
+      "status": "待官网确认",
       "deadline": "",
       "url": "https://www.harvestfund.com/",
       "source_type": "official",
-      "matched_keywords": [],
+      "matched_keywords": [
+        "AI"
+      ],
       "match_score": 99,
       "first_seen": "2026-07-12",
       "last_seen": "2026-07-12",
       "is_demo": false,
-      "note": "自动抓取失败：HTTPSConnectionPool(host='www.harvestfund.com', port=443): Read timed out. (read timeout=12)。可能是JS动态加载、证书、访问限制或临时网络问题，请人工打开官网确认。"
+      "note": "官网公开页面正文匹配到校招/实习相关关键词。"
     },
     {
       "id": "4850f063adf0869e",
@@ -35595,11 +35524,11 @@
       "note": "未在公开页面正文中匹配到明显27届/校招关键词；保留官方入口供人工核对。"
     },
     {
-      "id": "f11481eec1bb0e6a",
+      "id": "b9e872000db398a0",
       "company_id": "fujian-fuyaogroup-com",
       "company": "福耀玻璃",
       "category": "福建本地",
-      "title": "安全舒适",
+      "title": "官网入口暂时无法自动抓取",
       "recruit_type": "2027届校招/实习监控",
       "city": [
         "龙岩",
@@ -35612,50 +35541,16 @@
         "数据分析",
         "供应链"
       ],
-      "status": "27届秋招预热",
+      "status": "抓取失败",
       "deadline": "",
-      "url": "https://www.fuyaogroup.com/products.html",
+      "url": "https://www.fuyaogroup.com/careers",
       "source_type": "official",
-      "matched_keywords": [
-        "安全"
-      ],
-      "match_score": 95,
+      "matched_keywords": [],
+      "match_score": 91,
       "first_seen": "2026-07-12",
       "last_seen": "2026-07-12",
       "is_demo": false,
-      "note": "从官网公开页面链接中匹配到校招/实习相关关键词。"
-    },
-    {
-      "id": "ba922874b7d59c7b",
-      "company_id": "fujian-fuyaogroup-com",
-      "company": "福耀玻璃",
-      "category": "福建本地",
-      "title": "校园招聘",
-      "recruit_type": "2027届校招/实习监控",
-      "city": [
-        "龙岩",
-        "泉州",
-        "三明",
-        "莆田"
-      ],
-      "roles": [
-        "软件开发",
-        "数据分析",
-        "供应链"
-      ],
-      "status": "27届秋招预热",
-      "deadline": "",
-      "url": "https://job.fuyaogroup.com/fuyao/position/index?projectId=68a41304ae09c946d203b0a5&recruitmentType=CAMPUSRECRUITMENT",
-      "source_type": "official",
-      "matched_keywords": [
-        "campus",
-        "校园招聘"
-      ],
-      "match_score": 99,
-      "first_seen": "2026-07-12",
-      "last_seen": "2026-07-12",
-      "is_demo": false,
-      "note": "从官网公开页面链接中匹配到校招/实习相关关键词。"
+      "note": "自动抓取失败：HTTPSConnectionPool(host='www.fuyaogroup.com', port=443): Read timed out. (read timeout=12)。可能是JS动态加载、证书、访问限制或临时网络问题，请人工打开官网确认。"
     },
     {
       "id": "6f778187af188f57",
@@ -38828,7 +38723,7 @@
       "first_seen": "2026-06-04",
       "last_seen": "2026-07-12",
       "is_demo": false,
-      "note": "自动抓取失败：HTTPSConnectionPool(host='www.furielec.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"。可能是JS动态加载、证书、访问限制或临时网络问题，请人工打开官网确认。"
+      "note": "自动抓取失败：HTTPSConnectionPool(host='www.furielec.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(。可能是JS动态加载、证书、访问限制或临时网络问题，请人工打开官网确认。"
     },
     {
       "id": "b2cb6a6fd34e2dff",
