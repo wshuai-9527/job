@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-27T13:05:14",
+  "generated_at": "2026-09-27T17:47:00",
   "mode": "public_page_keyword_monitor",
   "company_count": 550,
   "crawled_count": 550,
-  "record_count": 1315,
-  "failures": 175,
+  "record_count": 1312,
+  "failures": 173,
   "jobs": [
     {
       "id": "fdd0654c471d996a",
@@ -579,11 +579,11 @@
       "note": "未在公开页面正文中匹配到明显27届/校招关键词；保留官方入口供人工核对。"
     },
     {
-      "id": "629c764a688b8458",
+      "id": "e47d129f0d2cd797",
       "company_id": "tech-bilibili-com",
       "company": "哔哩哔哩",
       "category": "科技企业",
-      "title": "官网入口暂时无法自动抓取",
+      "title": "哔哩哔哩-招聘",
       "recruit_type": "2027届校招/实习监控",
       "city": [
         "广州",
@@ -595,7 +595,7 @@
         "后端开发",
         "数据开发"
       ],
-      "status": "抓取失败",
+      "status": "待官网确认",
       "deadline": "",
       "url": "https://jobs.bilibili.com/",
       "source_type": "official",
@@ -604,7 +604,7 @@
       "first_seen": "2026-09-27",
       "last_seen": "2026-09-27",
       "is_demo": false,
-      "note": "自动抓取失败：HTTPSConnectionPool(host='jobs.bilibili.com', port=443): Read timed out. (read timeout=12)。可能是JS动态加载、证书、访问限制或临时网络问题，请人工打开官网确认。"
+      "note": "未在公开页面正文中匹配到明显27届/校招关键词；保留官方入口供人工核对。"
     },
     {
       "id": "6bea13732f383c23",
@@ -1137,7 +1137,7 @@
       "first_seen": "2026-06-04",
       "last_seen": "2026-09-27",
       "is_demo": false,
-      "note": "自动抓取失败：('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))。可能是JS动态加载、证书、访问限制或临时网络问题，请人工打开官网确认。"
+      "note": "自动抓取失败：404 Client Error: Not Found for url: https://www.blacksesame.com/zh/careers。可能是JS动态加载、证书、访问限制或临时网络问题，请人工打开官网确认。"
     },
     {
       "id": "9cb867def7aed87a",
@@ -2270,11 +2270,11 @@
       "note": "从官网公开页面链接中匹配到校招/实习相关关键词。"
     },
     {
-      "id": "a2ff5b9f651d5397",
+      "id": "14cb37102cf2eec5",
       "company_id": "tech-apple-com-apple",
       "company": "Apple",
       "category": "科技企业",
-      "title": "官网入口暂时无法自动抓取",
+      "title": "AirPods",
       "recruit_type": "2027届校招/实习监控",
       "city": [
         "广州",
@@ -2287,19 +2287,149 @@
         "算法工程师",
         "前端开发"
       ],
-      "status": "抓取失败",
+      "status": "待官网确认",
       "deadline": "",
-      "url": "https://www.apple.com/careers/cn/",
+      "url": "https://www.apple.com.cn/airpods/",
       "source_type": "official",
-      "matched_keywords": [],
+      "matched_keywords": [
+        "AI"
+      ],
       "match_score": 99,
-      "first_seen": "2026-09-26",
+      "first_seen": "2026-09-27",
       "last_seen": "2026-09-27",
       "is_demo": false,
-      "note": "自动抓取失败：403 Client Error: Forbidden for url: https://www.apple.com/careers/cn/。可能是JS动态加载、证书、访问限制或临时网络问题，请人工打开官网确认。"
+      "note": "从官网公开页面链接中匹配到校招/实习相关关键词。"
     },
     {
-      "id": "1471715d283b18b5",
+      "id": "3b9aa012db7b726c",
+      "company_id": "tech-apple-com-apple",
+      "company": "Apple",
+      "category": "科技企业",
+      "title": "娱乐",
+      "recruit_type": "2027届校招/实习监控",
+      "city": [
+        "广州",
+        "海外",
+        "武汉",
+        "西安"
+      ],
+      "roles": [
+        "后端开发",
+        "算法工程师",
+        "前端开发"
+      ],
+      "status": "待官网确认",
+      "deadline": "",
+      "url": "https://www.apple.com.cn/entertainment/",
+      "source_type": "official",
+      "matched_keywords": [
+        "AI"
+      ],
+      "match_score": 99,
+      "first_seen": "2026-09-27",
+      "last_seen": "2026-09-27",
+      "is_demo": false,
+      "note": "从官网公开页面链接中匹配到校招/实习相关关键词。"
+    },
+    {
+      "id": "bb0b23173db3ab43",
+      "company_id": "tech-apple-com-apple",
+      "company": "Apple",
+      "category": "科技企业",
+      "title": "Apple 零售",
+      "recruit_type": "2027届校招/实习监控",
+      "city": [
+        "广州",
+        "海外",
+        "武汉",
+        "西安"
+      ],
+      "roles": [
+        "后端开发",
+        "算法工程师",
+        "前端开发"
+      ],
+      "status": "待官网确认",
+      "deadline": "",
+      "url": "https://www.apple.com/careers/cn/work-at-apple/retail.html",
+      "source_type": "official",
+      "matched_keywords": [
+        "AI"
+      ],
+      "match_score": 99,
+      "first_seen": "2026-09-27",
+      "last_seen": "2026-09-27",
+      "is_demo": false,
+      "note": "从官网公开页面链接中匹配到校招/实习相关关键词。"
+    },
+    {
+      "id": "555a2d3d17c0c3dc",
+      "company_id": "tech-apple-com-apple",
+      "company": "Apple",
+      "category": "科技企业",
+      "title": "机器学习与人工智能",
+      "recruit_type": "2027届校招/实习监控",
+      "city": [
+        "广州",
+        "海外",
+        "武汉",
+        "西安"
+      ],
+      "roles": [
+        "后端开发",
+        "算法工程师",
+        "前端开发"
+      ],
+      "status": "待官网确认",
+      "deadline": "",
+      "url": "https://jobs.apple.com/zh-cn/search?location=china-CHNC&team=ai-and-machine-learning-data-operations-MLAI-AIMLDO+computer-vision-MLAI-CV+data-science-engineering-and-generation-MLAI-DSEG+deep-learning-generative-ai-and-foundation-models-MLAI-DLRL+engineering-project-and-program-management-MLAI-EPPM+information-systems-and-technology-MLAI-IST+machine-learning-compute-and-infrastructure-MLAI-MLI+mapping-and-motion-MLAI-MM+natural-language-processing-and-speech-technologies-MLAI-NLP+privacy-MLAI-PRI+responsible-ai-and-safety-MLAI-RAIS+search-and-knowledge-MLAI-SK+security-MLAI-SEC",
+      "source_type": "official",
+      "matched_keywords": [
+        "AI",
+        "Data",
+        "Engineer",
+        "人工智能",
+        "机器学习"
+      ],
+      "match_score": 99,
+      "first_seen": "2026-09-27",
+      "last_seen": "2026-09-27",
+      "is_demo": false,
+      "note": "从官网公开页面链接中匹配到校招/实习相关关键词。"
+    },
+    {
+      "id": "0e08a3592eca4852",
+      "company_id": "tech-apple-com-apple",
+      "company": "Apple",
+      "category": "科技企业",
+      "title": "硬件工程师",
+      "recruit_type": "2027届校招/实习监控",
+      "city": [
+        "广州",
+        "海外",
+        "武汉",
+        "西安"
+      ],
+      "roles": [
+        "后端开发",
+        "算法工程师",
+        "前端开发"
+      ],
+      "status": "待官网确认",
+      "deadline": "",
+      "url": "https://jobs.apple.com/zh-cn/search?search=%22Hardware+Engineer%22&sort=relevance&location=china-CHNC",
+      "source_type": "official",
+      "matched_keywords": [
+        "Engineer"
+      ],
+      "match_score": 99,
+      "first_seen": "2026-09-27",
+      "last_seen": "2026-09-27",
+      "is_demo": false,
+      "note": "从官网公开页面链接中匹配到校招/实习相关关键词。"
+    },
+    {
+      "id": "fec72f05b3a2b1b4",
       "company_id": "tech-amazon-com-amazon",
       "company": "Amazon",
       "category": "科技企业",
@@ -2316,7 +2446,7 @@
       ],
       "status": "待官网确认",
       "deadline": "",
-      "url": "https://www.amazon.jobs/en/#main-1790514462",
+      "url": "https://www.amazon.jobs/en/#main-1790531385",
       "source_type": "official",
       "matched_keywords": [
         "AI"
@@ -5295,11 +5425,11 @@
       "note": "从官网公开页面链接中匹配到校招/实习相关关键词。"
     },
     {
-      "id": "cadadba91fe1e2dc",
+      "id": "94d336c5860744b4",
       "company_id": "tech-uber-com-uber",
       "company": "Uber",
       "category": "科技企业",
-      "title": "Skip to main content",
+      "title": "官网入口暂时无法自动抓取",
       "recruit_type": "2027届校招/实习监控",
       "city": [
         "北京",
@@ -5310,47 +5440,16 @@
         "安全工程师",
         "产品经理"
       ],
-      "status": "待官网确认",
+      "status": "抓取失败",
       "deadline": "",
-      "url": "https://jobs.uber.com/en/#main-content",
+      "url": "https://www.uber.com/us/en/careers/",
       "source_type": "official",
-      "matched_keywords": [
-        "AI"
-      ],
+      "matched_keywords": [],
       "match_score": 99,
       "first_seen": "2026-09-27",
       "last_seen": "2026-09-27",
       "is_demo": false,
-      "note": "从官网公开页面链接中匹配到校招/实习相关关键词。"
-    },
-    {
-      "id": "df893fecc2378c0f",
-      "company_id": "tech-uber-com-uber",
-      "company": "Uber",
-      "category": "科技企业",
-      "title": "this form",
-      "recruit_type": "2027届校招/实习监控",
-      "city": [
-        "北京",
-        "上海"
-      ],
-      "roles": [
-        "前端开发",
-        "安全工程师",
-        "产品经理"
-      ],
-      "status": "待官网确认",
-      "deadline": "",
-      "url": "https://docs.google.com/forms/d/e/1FAIpQLSdb_Y9Bv8-lWDMbpidF2GKXsxzNh11wUUVS7fM1znOfEJsVeA/viewform",
-      "source_type": "official",
-      "matched_keywords": [
-        "AI"
-      ],
-      "match_score": 99,
-      "first_seen": "2026-09-27",
-      "last_seen": "2026-09-27",
-      "is_demo": false,
-      "note": "从官网公开页面链接中匹配到校招/实习相关关键词。"
+      "note": "自动抓取失败：404 Client Error: Not Found for url: https://www.uber.com/us/en/careers/。可能是JS动态加载、证书、访问限制或临时网络问题，请人工打开官网确认。"
     },
     {
       "id": "2f612171fbccff3e",
@@ -7246,11 +7345,11 @@
       "note": "自动抓取失败：412 Client Error: Precondition Failed for url: https://zhaopin.cnpc.com.cn/。可能是JS动态加载、证书、访问限制或临时网络问题，请人工打开官网确认。"
     },
     {
-      "id": "fc3a5919083c67c3",
+      "id": "5458e037db5d5ba5",
       "company_id": "soe-sinopecgroup-com",
       "company": "中国石化",
       "category": "央国企",
-      "title": "中国石化招聘网站",
+      "title": "官网入口暂时无法自动抓取",
       "recruit_type": "2027届校招/实习监控",
       "city": [
         "南京",
@@ -7262,16 +7361,16 @@
         "软件研发岗",
         "通信工程岗"
       ],
-      "status": "待官网确认",
+      "status": "抓取失败",
       "deadline": "",
       "url": "https://job.sinopec.com/",
       "source_type": "official",
       "matched_keywords": [],
       "match_score": 91,
-      "first_seen": "2026-09-26",
+      "first_seen": "2026-09-27",
       "last_seen": "2026-09-27",
       "is_demo": false,
-      "note": "未在公开页面正文中匹配到明显27届/校招关键词；保留官方入口供人工核对。"
+      "note": "自动抓取失败：HTTPSConnectionPool(host='job.sinopec.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"H。可能是JS动态加载、证书、访问限制或临时网络问题，请人工打开官网确认。"
     },
     {
       "id": "2f911df0823033c4",
@@ -8062,11 +8161,11 @@
       "note": "自动抓取失败：410 Client Error: Gone for url: https://www.faw.com.cn/fawcn/373694/index.html。可能是JS动态加载、证书、访问限制或临时网络问题，请人工打开官网确认。"
     },
     {
-      "id": "9df86b7fe59eac59",
+      "id": "bfe5b1edac582d43",
       "company_id": "soe-dfmc-com-cn",
       "company": "东风汽车集团",
       "category": "央国企",
-      "title": "官网入口暂时无法自动抓取",
+      "title": "企业介绍",
       "recruit_type": "2027届校招/实习监控",
       "city": [
         "广州",
@@ -8077,16 +8176,76 @@
         "数据治理岗",
         "软件研发岗"
       ],
-      "status": "抓取失败",
+      "status": "待官网确认",
       "deadline": "",
-      "url": "https://www.dfmc.com.cn/",
+      "url": "https://www.dfmc.com.cn/zoujindf/qiyegaikuang/qiyejieshao.html",
       "source_type": "official",
-      "matched_keywords": [],
-      "match_score": 90,
+      "matched_keywords": [
+        "AI"
+      ],
+      "match_score": 94,
       "first_seen": "2026-09-27",
       "last_seen": "2026-09-27",
       "is_demo": false,
-      "note": "自动抓取失败：HTTPSConnectionPool(host='www.dfmc.com.cn', port=443): Read timed out. (read timeout=12)。可能是JS动态加载、证书、访问限制或临时网络问题，请人工打开官网确认。"
+      "note": "从官网公开页面链接中匹配到校招/实习相关关键词。"
+    },
+    {
+      "id": "48664b7c905d3c0c",
+      "company_id": "soe-dfmc-com-cn",
+      "company": "东风汽车集团",
+      "category": "央国企",
+      "title": "企业品牌",
+      "recruit_type": "2027届校招/实习监控",
+      "city": [
+        "广州",
+        "西安"
+      ],
+      "roles": [
+        "信息技术岗",
+        "数据治理岗",
+        "软件研发岗"
+      ],
+      "status": "待官网确认",
+      "deadline": "",
+      "url": "https://www.dfmc.com.cn/zoujindf/qiyepinpai/pinpaizhanlue.html",
+      "source_type": "official",
+      "matched_keywords": [
+        "AI"
+      ],
+      "match_score": 94,
+      "first_seen": "2026-09-27",
+      "last_seen": "2026-09-27",
+      "is_demo": false,
+      "note": "从官网公开页面链接中匹配到校招/实习相关关键词。"
+    },
+    {
+      "id": "b013e459d3044808",
+      "company_id": "soe-dfmc-com-cn",
+      "company": "东风汽车集团",
+      "category": "央国企",
+      "title": "官网招聘相关入口",
+      "recruit_type": "2027届校招/实习监控",
+      "city": [
+        "广州",
+        "西安"
+      ],
+      "roles": [
+        "信息技术岗",
+        "数据治理岗",
+        "软件研发岗"
+      ],
+      "status": "待官网确认",
+      "deadline": "",
+      "url": "https://www.yipai.com.cn/model0086",
+      "source_type": "official",
+      "matched_keywords": [
+        "AI"
+      ],
+      "match_score": 94,
+      "first_seen": "2026-09-27",
+      "last_seen": "2026-09-27",
+      "is_demo": false,
+      "note": "从官网公开页面链接中匹配到校招/实习相关关键词。"
     },
     {
       "id": "d5cec9c33a3d0c46",
@@ -10082,11 +10241,11 @@
       "note": "自动抓取失败：403 Client Error: Forbidden for url: https://www.ccteg.cn/。可能是JS动态加载、证书、访问限制或临时网络问题，请人工打开官网确认。"
     },
     {
-      "id": "18d847d05e1092e5",
+      "id": "c124db4c59f5186a",
       "company_id": "soe-cam-com-cn",
       "company": "中国机械科学研究总院",
       "category": "央国企",
-      "title": "官网招聘相关入口",
+      "title": "官网入口暂时无法自动抓取",
       "recruit_type": "2027届校招/实习监控",
       "city": [
         "深圳",
@@ -10099,143 +10258,16 @@
         "网络安全岗",
         "数据治理岗"
       ],
-      "status": "待官网确认",
+      "status": "抓取失败",
       "deadline": "",
-      "url": "https://mail.cam.com.cn",
+      "url": "https://www.cam.com.cn/",
       "source_type": "official",
-      "matched_keywords": [
-        "AI"
-      ],
-      "match_score": 99,
+      "matched_keywords": [],
+      "match_score": 97,
       "first_seen": "2026-09-27",
       "last_seen": "2026-09-27",
       "is_demo": false,
-      "note": "从官网公开页面链接中匹配到校招/实习相关关键词。"
-    },
-    {
-      "id": "ca3917742ce97690",
-      "company_id": "soe-cam-com-cn",
-      "company": "中国机械科学研究总院",
-      "category": "央国企",
-      "title": "软件著作权",
-      "recruit_type": "2027届校招/实习监控",
-      "city": [
-        "深圳",
-        "福州",
-        "北京",
-        "南京"
-      ],
-      "roles": [
-        "管培生",
-        "网络安全岗",
-        "数据治理岗"
-      ],
-      "status": "待官网确认",
-      "deadline": "",
-      "url": "https://www.cam.com.cn/channels/622.html",
-      "source_type": "official",
-      "matched_keywords": [
-        "软件"
-      ],
-      "match_score": 99,
-      "first_seen": "2026-09-27",
-      "last_seen": "2026-09-27",
-      "is_demo": false,
-      "note": "从官网公开页面链接中匹配到校招/实习相关关键词。"
-    },
-    {
-      "id": "94d6ee8067d8702f",
-      "company_id": "soe-cam-com-cn",
-      "company": "中国机械科学研究总院",
-      "category": "央国企",
-      "title": "中国机械科学研究总院集团有限公司2026年高校毕业生接收公示 2026-09-15",
-      "recruit_type": "2027届校招/实习监控",
-      "city": [
-        "深圳",
-        "福州",
-        "北京",
-        "南京"
-      ],
-      "roles": [
-        "管培生",
-        "网络安全岗",
-        "数据治理岗"
-      ],
-      "status": "待官网确认",
-      "deadline": "",
-      "url": "https://www.cam.com.cn/contents/649/19321.html",
-      "source_type": "official",
-      "matched_keywords": [
-        "毕业生"
-      ],
-      "match_score": 99,
-      "first_seen": "2026-09-27",
-      "last_seen": "2026-09-27",
-      "is_demo": false,
-      "note": "从官网公开页面链接中匹配到校招/实习相关关键词。"
-    },
-    {
-      "id": "eea0f94bc63543b7",
-      "company_id": "soe-cam-com-cn",
-      "company": "中国机械科学研究总院",
-      "category": "央国企",
-      "title": "社会责任 我们在高速齿轮热变形、弹性变形计算及修形等基础技术方面做了大量的研究，获得过国家科技成果二等奖，形成了独特的高速渐开线齿轮参数优化设计计算、修形计算高",
-      "recruit_type": "2027届校招/实习监控",
-      "city": [
-        "深圳",
-        "福州",
-        "北京",
-        "南京"
-      ],
-      "roles": [
-        "管培生",
-        "网络安全岗",
-        "数据治理岗"
-      ],
-      "status": "待官网确认",
-      "deadline": "",
-      "url": "https://www.cam.com.cn/channels/487.html",
-      "source_type": "official",
-      "matched_keywords": [
-        "开发",
-        "软件"
-      ],
-      "match_score": 99,
-      "first_seen": "2026-09-27",
-      "last_seen": "2026-09-27",
-      "is_demo": false,
-      "note": "从官网公开页面链接中匹配到校招/实习相关关键词。"
-    },
-    {
-      "id": "0d1644e336b668bc",
-      "company_id": "soe-cam-com-cn",
-      "company": "中国机械科学研究总院",
-      "category": "央国企",
-      "title": "中国机械科学研究总院集团有限公司（以下简称中国机械总院）的前身是机械工业部机械科学研究院，成立于1956年新中国建设时期。1999年按照“国科发政字（1999）",
-      "recruit_type": "2027届校招/实习监控",
-      "city": [
-        "深圳",
-        "福州",
-        "北京",
-        "南京"
-      ],
-      "roles": [
-        "管培生",
-        "网络安全岗",
-        "数据治理岗"
-      ],
-      "status": "待官网确认",
-      "deadline": "",
-      "url": "https://www.cam.com.cn/channels/317.html",
-      "source_type": "official",
-      "matched_keywords": [
-        "开发"
-      ],
-      "match_score": 99,
-      "first_seen": "2026-09-27",
-      "last_seen": "2026-09-27",
-      "is_demo": false,
-      "note": "从官网公开页面链接中匹配到校招/实习相关关键词。"
+      "note": "自动抓取失败：HTTPSConnectionPool(host='www.cam.com.cn', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HT。可能是JS动态加载、证书、访问限制或临时网络问题，请人工打开官网确认。"
     },
     {
       "id": "c356773853327064",
@@ -12548,7 +12580,7 @@
       "first_seen": "2026-06-04",
       "last_seen": "2026-09-27",
       "is_demo": false,
-      "note": "自动抓取失败：412 Client Error: Precondition Failed for url: https://www.china-an.cn/。可能是JS动态加载、证书、访问限制或临时网络问题，请人工打开官网确认。"
+      "note": "自动抓取失败：HTTPSConnectionPool(host='www.china-an.cn', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"H。可能是JS动态加载、证书、访问限制或临时网络问题，请人工打开官网确认。"
     },
     {
       "id": "60c994bd2b8f8576",
@@ -12844,11 +12876,11 @@
       "note": "从官网公开页面链接中匹配到校招/实习相关关键词。"
     },
     {
-      "id": "1c7db889d1d270e9",
+      "id": "4e9c1c1357134f08",
       "company_id": "soe-hualu-com-cn",
       "company": "中国华录集团",
       "category": "央国企",
-      "title": "安全生产",
+      "title": "官网入口暂时无法自动抓取",
       "recruit_type": "2027届校招/实习监控",
       "city": [
         "深圳",
@@ -12860,138 +12892,16 @@
         "数字化管理岗",
         "信息技术岗"
       ],
-      "status": "27届秋招预热",
+      "status": "抓取失败",
       "deadline": "",
-      "url": "https://www.hualu.com.cn/channels/35.html",
+      "url": "https://www.hualu.com.cn/",
       "source_type": "official",
-      "matched_keywords": [
-        "安全"
-      ],
-      "match_score": 99,
+      "matched_keywords": [],
+      "match_score": 97,
       "first_seen": "2026-09-27",
       "last_seen": "2026-09-27",
       "is_demo": false,
-      "note": "从官网公开页面链接中匹配到校招/实习相关关键词。"
-    },
-    {
-      "id": "f57e6191669002dd",
-      "company_id": "soe-hualu-com-cn",
-      "company": "中国华录集团",
-      "category": "央国企",
-      "title": "校园招聘",
-      "recruit_type": "2027届校招/实习监控",
-      "city": [
-        "深圳",
-        "上海",
-        "厦门"
-      ],
-      "roles": [
-        "数据治理岗",
-        "数字化管理岗",
-        "信息技术岗"
-      ],
-      "status": "27届秋招预热",
-      "deadline": "",
-      "url": "https://www.hualu.com.cn/channels/44.html",
-      "source_type": "official",
-      "matched_keywords": [
-        "校园招聘"
-      ],
-      "match_score": 99,
-      "first_seen": "2026-09-27",
-      "last_seen": "2026-09-27",
-      "is_demo": false,
-      "note": "从官网公开页面链接中匹配到校招/实习相关关键词。"
-    },
-    {
-      "id": "6ba75f3a6c3b87f2",
-      "company_id": "soe-hualu-com-cn",
-      "company": "中国华录集团",
-      "category": "央国企",
-      "title": "关于中国华录集团有限公司在京单位2022年度高校毕业生拟接收情况公示 [2022-09-22]",
-      "recruit_type": "2027届校招/实习监控",
-      "city": [
-        "深圳",
-        "上海",
-        "厦门"
-      ],
-      "roles": [
-        "数据治理岗",
-        "数字化管理岗",
-        "信息技术岗"
-      ],
-      "status": "待官网确认",
-      "deadline": "",
-      "url": "https://www.hualu.com.cn/contents/56/14122.html",
-      "source_type": "official",
-      "matched_keywords": [
-        "毕业生"
-      ],
-      "match_score": 99,
-      "first_seen": "2026-09-27",
-      "last_seen": "2026-09-27",
-      "is_demo": false,
-      "note": "从官网公开页面链接中匹配到校招/实习相关关键词。"
-    },
-    {
-      "id": "a39e2b0e989543e6",
-      "company_id": "soe-hualu-com-cn",
-      "company": "中国华录集团",
-      "category": "央国企",
-      "title": "华录新媒工会首届“AIGC视频创作大赛”圆满落幕：以数字之力赋能文化创新 [2025-12-24]",
-      "recruit_type": "2027届校招/实习监控",
-      "city": [
-        "深圳",
-        "上海",
-        "厦门"
-      ],
-      "roles": [
-        "数据治理岗",
-        "数字化管理岗",
-        "信息技术岗"
-      ],
-      "status": "27届秋招预热",
-      "deadline": "",
-      "url": "https://mp.weixin.qq.com/s/WHORMuQwkXEJT4rFJXAXxQ",
-      "source_type": "official",
-      "matched_keywords": [
-        "AI"
-      ],
-      "match_score": 99,
-      "first_seen": "2026-09-27",
-      "last_seen": "2026-09-27",
-      "is_demo": false,
-      "note": "从官网公开页面链接中匹配到校招/实习相关关键词。"
-    },
-    {
-      "id": "0eb4ae0e06f7c100",
-      "company_id": "soe-hualu-com-cn",
-      "company": "中国华录集团",
-      "category": "央国企",
-      "title": "中共中央 国务院关于构建数据基础制度更好发挥数据要素作用的意见",
-      "recruit_type": "2027届校招/实习监控",
-      "city": [
-        "深圳",
-        "上海",
-        "厦门"
-      ],
-      "roles": [
-        "数据治理岗",
-        "数字化管理岗",
-        "信息技术岗"
-      ],
-      "status": "27届秋招预热",
-      "deadline": "",
-      "url": "http://www.gov.cn/zhengce/2022-12/19/content_5732695.htm",
-      "source_type": "official",
-      "matched_keywords": [
-        "数据"
-      ],
-      "match_score": 99,
-      "first_seen": "2026-09-27",
-      "last_seen": "2026-09-27",
-      "is_demo": false,
-      "note": "从官网公开页面链接中匹配到校招/实习相关关键词。"
+      "note": "自动抓取失败：502 Server Error: Bad Gateway for url: https://www.hualu.com.cn/。可能是JS动态加载、证书、访问限制或临时网络问题，请人工打开官网确认。"
     },
     {
       "id": "f756c4ac1af92b29",
@@ -14702,7 +14612,7 @@
       "note": "从官网公开页面链接中匹配到校招/实习相关关键词。"
     },
     {
-      "id": "438c21b421454437",
+      "id": "2ab871522f9f1254",
       "company_id": "fmcg-kimberly-clark-com",
       "company": "金佰利",
       "category": "快消企业",
@@ -14719,7 +14629,7 @@
       ],
       "status": "27届实习转正",
       "deadline": "",
-      "url": "https://careers.kimberly-clark.com/cdn-cgi/l/email-protection#6f2803000d0e03413f1d06190e0c162f040c0c410c0002",
+      "url": "https://careers.kimberly-clark.com/cdn-cgi/l/email-protection#2562494a4744490b75574c5344465c654e46460b464a48",
       "source_type": "official",
       "matched_keywords": [
         "AI"
@@ -15763,11 +15673,11 @@
       "note": "自动抓取失败：HTTPSConnectionPool(host='www.lgcare.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerifi。可能是JS动态加载、证书、访问限制或临时网络问题，请人工打开官网确认。"
     },
     {
-      "id": "fb33f71ec4e331ce",
+      "id": "ee46dffdbf3e52fe",
       "company_id": "fmcg-apgroup-com",
       "company": "爱茉莉太平洋",
       "category": "快消企业",
-      "title": "官网入口暂时无法自动抓取",
+      "title": "Skip to main content",
       "recruit_type": "2027届校招/实习监控",
       "city": [
         "成都",
@@ -15780,16 +15690,18 @@
         "供应链",
         "电商运营"
       ],
-      "status": "抓取失败",
+      "status": "待官网确认",
       "deadline": "",
-      "url": "https://www.apgroup.com/int/en/careers/careers.html",
+      "url": "https://www.apgroup.com/int/en/careers/careers.html#main",
       "source_type": "official",
-      "matched_keywords": [],
-      "match_score": 80,
+      "matched_keywords": [
+        "AI"
+      ],
+      "match_score": 84,
       "first_seen": "2026-09-27",
       "last_seen": "2026-09-27",
       "is_demo": false,
-      "note": "自动抓取失败：403 Client Error: Forbidden for url: https://www.apgroup.com/int/en/careers/careers.html。可能是JS动态加载、证书、访问限制或临时网络问题，请人工打开官网确认。"
+      "note": "从官网公开页面链接中匹配到校招/实习相关关键词。"
     },
     {
       "id": "d0eeb365b48408a9",
@@ -16348,11 +16260,11 @@
       "note": "从官网公开页面链接中匹配到校招/实习相关关键词。"
     },
     {
-      "id": "d4ea8d9587c78cd9",
+      "id": "2d62853799e5dcc2",
       "company_id": "fmcg-bosideng-com",
       "company": "波司登",
       "category": "快消企业",
-      "title": "官网入口暂时无法自动抓取",
+      "title": "波司登官网",
       "recruit_type": "2027届校招/实习监控",
       "city": [
         "上海",
@@ -16365,7 +16277,7 @@
         "品牌管理",
         "管培生"
       ],
-      "status": "抓取失败",
+      "status": "待官网确认",
       "deadline": "",
       "url": "https://www.bosideng.com/",
       "source_type": "official",
@@ -16374,7 +16286,7 @@
       "first_seen": "2026-09-27",
       "last_seen": "2026-09-27",
       "is_demo": false,
-      "note": "自动抓取失败：HTTPSConnectionPool(host='www.bosideng.com', port=443): Read timed out. (read timeout=12)。可能是JS动态加载、证书、访问限制或临时网络问题，请人工打开官网确认。"
+      "note": "未在公开页面正文中匹配到明显27届/校招关键词；保留官方入口供人工核对。"
     },
     {
       "id": "4c4ba36648400bbe",
@@ -16433,11 +16345,11 @@
       "note": "自动抓取失败：HTTPSConnectionPool(host='career.mengniu.com.cn', port=443): Max retries exceeded with url: / (Caused by NameResolutionE。可能是JS动态加载、证书、访问限制或临时网络问题，请人工打开官网确认。"
     },
     {
-      "id": "d7ea3f8394461b92",
+      "id": "62c482c2fa39a378",
       "company_id": "fmcg-nongfuspring-com",
       "company": "农夫山泉",
       "category": "快消企业",
-      "title": "官网入口暂时无法自动抓取",
+      "title": "水类",
       "recruit_type": "2027届校招/实习监控",
       "city": [
         "北京",
@@ -16450,16 +16362,142 @@
         "数据分析",
         "品牌管理"
       ],
-      "status": "抓取失败",
+      "status": "待官网确认",
       "deadline": "",
-      "url": "https://www.nongfuspring.com/careers",
+      "url": "https://www.nongfuspring.com/goods/detail-all.html?id=6",
       "source_type": "official",
-      "matched_keywords": [],
-      "match_score": 83,
+      "matched_keywords": [
+        "AI"
+      ],
+      "match_score": 87,
       "first_seen": "2026-09-27",
       "last_seen": "2026-09-27",
       "is_demo": false,
-      "note": "自动抓取失败：HTTPSConnectionPool(host='www.nongfuspring.com', port=443): Read timed out. (read timeout=12)。可能是JS动态加载、证书、访问限制或临时网络问题，请人工打开官网确认。"
+      "note": "从官网公开页面链接中匹配到校招/实习相关关键词。"
+    },
+    {
+      "id": "6c43d696e0614559",
+      "company_id": "fmcg-nongfuspring-com",
+      "company": "农夫山泉",
+      "category": "快消企业",
+      "title": "茶类",
+      "recruit_type": "2027届校招/实习监控",
+      "city": [
+        "北京",
+        "深圳",
+        "福州",
+        "泉州"
+      ],
+      "roles": [
+        "消费者洞察",
+        "数据分析",
+        "品牌管理"
+      ],
+      "status": "待官网确认",
+      "deadline": "",
+      "url": "https://www.nongfuspring.com/goods/detail-all.html?id=1",
+      "source_type": "official",
+      "matched_keywords": [
+        "AI"
+      ],
+      "match_score": 87,
+      "first_seen": "2026-09-27",
+      "last_seen": "2026-09-27",
+      "is_demo": false,
+      "note": "从官网公开页面链接中匹配到校招/实习相关关键词。"
+    },
+    {
+      "id": "55698019e9cd87a4",
+      "company_id": "fmcg-nongfuspring-com",
+      "company": "农夫山泉",
+      "category": "快消企业",
+      "title": "功能饮料类",
+      "recruit_type": "2027届校招/实习监控",
+      "city": [
+        "北京",
+        "深圳",
+        "福州",
+        "泉州"
+      ],
+      "roles": [
+        "消费者洞察",
+        "数据分析",
+        "品牌管理"
+      ],
+      "status": "待官网确认",
+      "deadline": "",
+      "url": "https://www.nongfuspring.com/goods/detail-all.html?id=5",
+      "source_type": "official",
+      "matched_keywords": [
+        "AI"
+      ],
+      "match_score": 87,
+      "first_seen": "2026-09-27",
+      "last_seen": "2026-09-27",
+      "is_demo": false,
+      "note": "从官网公开页面链接中匹配到校招/实习相关关键词。"
+    },
+    {
+      "id": "4ddabe3e3f27c485",
+      "company_id": "fmcg-nongfuspring-com",
+      "company": "农夫山泉",
+      "category": "快消企业",
+      "title": "果汁类",
+      "recruit_type": "2027届校招/实习监控",
+      "city": [
+        "北京",
+        "深圳",
+        "福州",
+        "泉州"
+      ],
+      "roles": [
+        "消费者洞察",
+        "数据分析",
+        "品牌管理"
+      ],
+      "status": "待官网确认",
+      "deadline": "",
+      "url": "https://www.nongfuspring.com/goods/detail-all.html?id=2",
+      "source_type": "official",
+      "matched_keywords": [
+        "AI"
+      ],
+      "match_score": 87,
+      "first_seen": "2026-09-27",
+      "last_seen": "2026-09-27",
+      "is_demo": false,
+      "note": "从官网公开页面链接中匹配到校招/实习相关关键词。"
+    },
+    {
+      "id": "acd8bb8405525aae",
+      "company_id": "fmcg-nongfuspring-com",
+      "company": "农夫山泉",
+      "category": "快消企业",
+      "title": "其他类",
+      "recruit_type": "2027届校招/实习监控",
+      "city": [
+        "北京",
+        "深圳",
+        "福州",
+        "泉州"
+      ],
+      "roles": [
+        "消费者洞察",
+        "数据分析",
+        "品牌管理"
+      ],
+      "status": "待官网确认",
+      "deadline": "",
+      "url": "https://www.nongfuspring.com/goods/detail-all.html?id=12",
+      "source_type": "official",
+      "matched_keywords": [
+        "AI"
+      ],
+      "match_score": 87,
+      "first_seen": "2026-09-27",
+      "last_seen": "2026-09-27",
+      "is_demo": false,
+      "note": "从官网公开页面链接中匹配到校招/实习相关关键词。"
     },
     {
       "id": "24efeceb28572a37",
@@ -16749,11 +16787,11 @@
       "note": "自动抓取失败：HTTPSConnectionPool(host='www.qianhefood.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutErro。可能是JS动态加载、证书、访问限制或临时网络问题，请人工打开官网确认。"
     },
     {
-      "id": "44be4a32293c804a",
+      "id": "6b622035dc3a53bd",
       "company_id": "fmcg-flzc-com",
       "company": "涪陵榨菜",
       "category": "快消企业",
-      "title": "官网入口暂时无法自动抓取",
+      "title": "官网招聘相关入口",
       "recruit_type": "2027届校招/实习监控",
       "city": [
         "上海",
@@ -16766,16 +16804,49 @@
         "消费者洞察",
         "数据分析"
       ],
-      "status": "抓取失败",
+      "status": "待官网确认",
       "deadline": "",
-      "url": "https://www.flzc.com/",
+      "url": "https://shop.m.jd.com/shop/home?shopId=67694&utm_term=CopyURL_shareid200969fdf16e76625abf8a613e84b2090ffb535c17369094239763_shop_none&utm_source=iosapp&ad_od=share&utm_campaign=t_335139774&utm_medium=appshare&gx=RnAovz4FITXQwpsVqYR0ER8M6w&gxd=RnAowWdZYTLQncxDroIiWkJRsHrE-HPOYw5d0Nf5OI0iyI0P6-89hr9xIfbrUFQ&czLogin=1",
       "source_type": "official",
-      "matched_keywords": [],
-      "match_score": 87,
+      "matched_keywords": [
+        "AI"
+      ],
+      "match_score": 91,
       "first_seen": "2026-09-27",
       "last_seen": "2026-09-27",
       "is_demo": false,
-      "note": "自动抓取失败：HTTPSConnectionPool(host='www.flzc.com', port=443): Read timed out. (read timeout=12)。可能是JS动态加载、证书、访问限制或临时网络问题，请人工打开官网确认。"
+      "note": "从官网公开页面链接中匹配到校招/实习相关关键词。"
+    },
+    {
+      "id": "c03bf393a277540c",
+      "company_id": "fmcg-flzc-com",
+      "company": "涪陵榨菜",
+      "category": "快消企业",
+      "title": "官网招聘相关入口",
+      "recruit_type": "2027届校招/实习监控",
+      "city": [
+        "上海",
+        "北京",
+        "泉州",
+        "福州"
+      ],
+      "roles": [
+        "IT数字化",
+        "消费者洞察",
+        "数据分析"
+      ],
+      "status": "待官网确认",
+      "deadline": "",
+      "url": "https://wujiangsp.tmall.com/shop/view_shop.htm?ut_sk=1.XQ0TwuSjB4YDAJCh%2BdkcXlpA_21380790_1736909317219.Copy.shop&weexShopSubTab=shopindex&sourceType=shop&weexShopTab=shopindexbar&suid=E288ED47-1169-4600-8EF8-3BE5B5827DAC&shareUniqueId=30167161123&un=56d169e39473953c22a7d2c8bacf4d49&share_crt_v=1&un_site=0&spm=a2159r.13376460.0.0&sp_tk=cnFWdmUyQ0FoM3M%3D&bc_fl_src=share-1041106073620228-2-1&cpp=1&shareurl=true&short_name=h.T96i3uQdgaQXYz5&bxsign=scd-SjcXOMzpQAysa3xsmXI31XGJNAZ0_6E4euraZo20EaiW3ozlsS2mWeR_4lUL_LKr8LSjVwOmAJRjPdJ6UT0DN8fBLSPTEB5p_NIeGyVqmUJtFtHeR_sQVCbHPUyyu5Z&app=weixin",
+      "source_type": "official",
+      "matched_keywords": [
+        "AI"
+      ],
+      "match_score": 91,
+      "first_seen": "2026-09-27",
+      "last_seen": "2026-09-27",
+      "is_demo": false,
+      "note": "从官网公开页面链接中匹配到校招/实习相关关键词。"
     },
     {
       "id": "5ed207b73222b24f",
@@ -18521,7 +18592,7 @@
       "note": "从官网公开页面链接中匹配到校招/实习相关关键词。"
     },
     {
-      "id": "033f7dfed66482d8",
+      "id": "41ac1539b3efb1bf",
       "company_id": "fmcg-carlsbergchina-com-cn",
       "company": "嘉士伯中国",
       "category": "快消企业",
@@ -18539,7 +18610,7 @@
       ],
       "status": "待官网确认",
       "deadline": "",
-      "url": "https://www.carlsbergchina.com.cn/cdn-cgi/l/email-protection#0a6965647e6b697e7f794a696265646d7b63646d6d78657f7a246964",
+      "url": "https://www.carlsbergchina.com.cn/cdn-cgi/l/email-protection#accfc3c2d8cdcfd8d9dfeccfc4c3c2cbddc5c2cbcbdec3d9dc82cfc2",
       "source_type": "official",
       "matched_keywords": [
         "AI"
@@ -19717,11 +19788,11 @@
       "note": "官网公开页面正文匹配到校招/实习相关关键词。"
     },
     {
-      "id": "0657406c71990091",
+      "id": "ab9d0985de6099be",
       "company_id": "fmcg-belleintl-com",
       "company": "百丽国际",
       "category": "快消企业",
-      "title": "百丽国际 - 百丽国际官网",
+      "title": "官网入口暂时无法自动抓取",
       "recruit_type": "2027届校招/实习监控",
       "city": [
         "福州",
@@ -19734,7 +19805,7 @@
         "品牌管理",
         "消费者洞察"
       ],
-      "status": "待官网确认",
+      "status": "抓取失败",
       "deadline": "",
       "url": "https://www.belleintl.com/",
       "source_type": "official",
@@ -19743,7 +19814,7 @@
       "first_seen": "2026-09-27",
       "last_seen": "2026-09-27",
       "is_demo": false,
-      "note": "未在公开页面正文中匹配到明显27届/校招关键词；保留官方入口供人工核对。"
+      "note": "自动抓取失败：HTTPSConnectionPool(host='www.belleintl.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError。可能是JS动态加载、证书、访问限制或临时网络问题，请人工打开官网确认。"
     },
     {
       "id": "e80093d91cbb1c9e",
@@ -21871,11 +21942,11 @@
       "note": "从官网公开页面链接中匹配到校招/实习相关关键词。"
     },
     {
-      "id": "528e91cb89f0c536",
+      "id": "2cbce809b6b9add5",
       "company_id": "foreign-pfizer-com",
       "company": "辉瑞",
       "category": "外企",
-      "title": "Skip to main content",
+      "title": "官网入口暂时无法自动抓取",
       "recruit_type": "2027届校招/实习监控",
       "city": [
         "北京",
@@ -21886,134 +21957,16 @@
         "Supply Chain",
         "Business Analyst"
       ],
-      "status": "27届实习转正",
+      "status": "抓取失败",
       "deadline": "",
-      "url": "https://www.pfizer.com/about/careers#main-content",
+      "url": "https://www.pfizer.com/about/careers",
       "source_type": "official",
-      "matched_keywords": [
-        "AI"
-      ],
-      "match_score": 81,
-      "first_seen": "2026-06-04",
+      "matched_keywords": [],
+      "match_score": 77,
+      "first_seen": "2026-09-27",
       "last_seen": "2026-09-27",
       "is_demo": false,
-      "note": "从官网公开页面链接中匹配到校招/实习相关关键词。"
-    },
-    {
-      "id": "1dc240c3cdbc3f45",
-      "company_id": "foreign-pfizer-com",
-      "company": "辉瑞",
-      "category": "外企",
-      "title": "Data and Results",
-      "recruit_type": "2027届校招/实习监控",
-      "city": [
-        "北京",
-        "深圳"
-      ],
-      "roles": [
-        "Graduate Program",
-        "Supply Chain",
-        "Business Analyst"
-      ],
-      "status": "27届实习转正",
-      "deadline": "",
-      "url": "https://www.pfizer.com/science/clinical-trials/data-and-results",
-      "source_type": "official",
-      "matched_keywords": [
-        "Data"
-      ],
-      "match_score": 81,
-      "first_seen": "2026-06-04",
-      "last_seen": "2026-09-27",
-      "is_demo": false,
-      "note": "从官网公开页面链接中匹配到校招/实习相关关键词。"
-    },
-    {
-      "id": "4346ef61dc6ea8ec",
-      "company_id": "foreign-pfizer-com",
-      "company": "辉瑞",
-      "category": "外企",
-      "title": "Plain Language Study Results",
-      "recruit_type": "2027届校招/实习监控",
-      "city": [
-        "北京",
-        "深圳"
-      ],
-      "roles": [
-        "Graduate Program",
-        "Supply Chain",
-        "Business Analyst"
-      ],
-      "status": "27届实习转正",
-      "deadline": "",
-      "url": "https://www.pfizer.com/science/clinical-trials/plain-language-study-results-summaries",
-      "source_type": "official",
-      "matched_keywords": [
-        "AI"
-      ],
-      "match_score": 81,
-      "first_seen": "2026-06-04",
-      "last_seen": "2026-09-27",
-      "is_demo": false,
-      "note": "从官网公开页面链接中匹配到校招/实习相关关键词。"
-    },
-    {
-      "id": "07c6352ea99ba98c",
-      "company_id": "foreign-pfizer-com",
-      "company": "辉瑞",
-      "category": "外企",
-      "title": "Internal Medicine",
-      "recruit_type": "2027届校招/实习监控",
-      "city": [
-        "北京",
-        "深圳"
-      ],
-      "roles": [
-        "Graduate Program",
-        "Supply Chain",
-        "Business Analyst"
-      ],
-      "status": "27届实习转正",
-      "deadline": "",
-      "url": "https://www.pfizer.com/science/focus-areas/internal-medicine",
-      "source_type": "official",
-      "matched_keywords": [
-        "intern"
-      ],
-      "match_score": 81,
-      "first_seen": "2026-06-04",
-      "last_seen": "2026-09-27",
-      "is_demo": false,
-      "note": "从官网公开页面链接中匹配到校招/实习相关关键词。"
-    },
-    {
-      "id": "a9f3a942e8bb6879",
-      "company_id": "foreign-pfizer-com",
-      "company": "辉瑞",
-      "category": "外企",
-      "title": "Product Safety",
-      "recruit_type": "2027届校招/实习监控",
-      "city": [
-        "北京",
-        "深圳"
-      ],
-      "roles": [
-        "Graduate Program",
-        "Supply Chain",
-        "Business Analyst"
-      ],
-      "status": "27届实习转正",
-      "deadline": "",
-      "url": "https://www.pfizer.com/products/medicine-safety/data-sheets",
-      "source_type": "official",
-      "matched_keywords": [
-        "Data"
-      ],
-      "match_score": 81,
-      "first_seen": "2026-06-04",
-      "last_seen": "2026-09-27",
-      "is_demo": false,
-      "note": "从官网公开页面链接中匹配到校招/实习相关关键词。"
+      "note": "自动抓取失败：403 Client Error: Forbidden for url: https://www.pfizer.com/about/careers。可能是JS动态加载、证书、访问限制或临时网络问题，请人工打开官网确认。"
     },
     {
       "id": "a81359ff07d832af",
@@ -26048,11 +26001,11 @@
       "note": "从官网公开页面链接中匹配到校招/实习相关关键词。"
     },
     {
-      "id": "9f68fc7de18aaf28",
+      "id": "1dae07910f6b1926",
       "company_id": "foreign-ford-com",
       "company": "福特",
       "category": "外企",
-      "title": "Identity Security Operations Engineer",
+      "title": "Hotline Technical Advisor",
       "recruit_type": "2027届校招/实习监控",
       "city": [
         "海外",
@@ -26066,10 +26019,10 @@
       ],
       "status": "27届秋招预热",
       "deadline": "",
-      "url": "https://www.careers.ford.com/job/india/identity-security-operations-engineer/48560/99538402928",
+      "url": "https://www.careers.ford.com/job/chennai/hotline-technical-advisor/48560/100120123184",
       "source_type": "official",
       "matched_keywords": [
-        "Engineer"
+        "AI"
       ],
       "match_score": 94,
       "first_seen": "2026-09-27",
@@ -29960,11 +29913,11 @@
       "note": "未在公开页面正文中匹配到明显27届/校招关键词；保留官方入口供人工核对。"
     },
     {
-      "id": "833a7733c2a1cb9a",
+      "id": "a85f9c8bf5a844af",
       "company_id": "finance-bank-pingan-com",
       "company": "平安银行",
       "category": "金融机构",
-      "title": "官网入口暂时无法自动抓取",
+      "title": "页面未找到 – 平安官网",
       "recruit_type": "2027届校招/实习监控",
       "city": [
         "杭州",
@@ -29977,16 +29930,16 @@
         "管培生",
         "投研助理"
       ],
-      "status": "抓取失败",
+      "status": "待官网确认",
       "deadline": "",
-      "url": "https://bank.pingan.com/about/recruitment/",
+      "url": "http://bank.pingan.com/404.shtml",
       "source_type": "official",
       "matched_keywords": [],
       "match_score": 80,
       "first_seen": "2026-09-27",
       "last_seen": "2026-09-27",
       "is_demo": false,
-      "note": "自动抓取失败：HTTPSConnectionPool(host='bank.pingan.com', port=443): Read timed out. (read timeout=12)。可能是JS动态加载、证书、访问限制或临时网络问题，请人工打开官网确认。"
+      "note": "未在公开页面正文中匹配到明显27届/校招关键词；保留官方入口供人工核对。"
     },
     {
       "id": "16aab9f84a3079b4",
@@ -30442,7 +30395,7 @@
       "first_seen": "2026-06-04",
       "last_seen": "2026-09-27",
       "is_demo": false,
-      "note": "自动抓取失败：HTTPSConnectionPool(host='www.bocd.com.cn', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"。可能是JS动态加载、证书、访问限制或临时网络问题，请人工打开官网确认。"
+      "note": "自动抓取失败：HTTPSConnectionPool(host='www.bocd.com.cn', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, 。可能是JS动态加载、证书、访问限制或临时网络问题，请人工打开官网确认。"
     },
     {
       "id": "e5f1b83a768a02b5",
@@ -35688,11 +35641,11 @@
       "note": "未在公开页面正文中匹配到明显27届/校招关键词；保留官方入口供人工核对。"
     },
     {
-      "id": "08d7e13f12114fd8",
+      "id": "8714d3f5577aec36",
       "company_id": "fujian-chinacnd-com",
       "company": "建发集团",
       "category": "福建本地",
-      "title": "体系化推进数据资产建设，建发股份数智化能力获多项权威认可 将数据资源转化为推动业务创新发展的新质生产力，为供应链数智化转型升级贡献“建发实践”",
+      "title": "建发股份团体标准落地+技术突破，数智物流降本能力再升级 共同探索AI技术与供应链场景的深度融合，为提升产业链供应链韧性、全行业降本增效贡献建发力量",
       "recruit_type": "2027届校招/实习监控",
       "city": [
         "宁德",
@@ -35706,43 +35659,13 @@
       ],
       "status": "27届秋招预热",
       "deadline": "",
-      "url": "https://www.chinacnd.com/news-1049.html",
+      "url": "https://www.chinacnd.com/news-1032.html",
       "source_type": "official",
       "matched_keywords": [
-        "数据"
+        "AI"
       ],
       "match_score": 91,
-      "first_seen": "2026-09-24",
-      "last_seen": "2026-09-27",
-      "is_demo": false,
-      "note": "从官网公开页面链接中匹配到校招/实习相关关键词。"
-    },
-    {
-      "id": "aa8eb34cce2eb003",
-      "company_id": "fujian-chinacnd-com",
-      "company": "建发集团",
-      "category": "福建本地",
-      "title": "建发股份与中国地质调查局发展研究中心签署合作协议 推动各项合作事宜落地，更好地保障我国战略性矿产资源安全和产业链供应链安全",
-      "recruit_type": "2027届校招/实习监控",
-      "city": [
-        "宁德",
-        "莆田",
-        "龙岩"
-      ],
-      "roles": [
-        "研发工程师",
-        "数字化岗",
-        "信息技术岗"
-      ],
-      "status": "27届秋招预热",
-      "deadline": "",
-      "url": "https://www.chinacnd.com/news-1048.html",
-      "source_type": "official",
-      "matched_keywords": [
-        "安全"
-      ],
-      "match_score": 91,
-      "first_seen": "2026-09-24",
+      "first_seen": "2026-09-27",
       "last_seen": "2026-09-27",
       "is_demo": false,
       "note": "从官网公开页面链接中匹配到校招/实习相关关键词。"
